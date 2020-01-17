@@ -1,0 +1,124 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #EDEDED;
+}
+
+/* Logo block style */
+.logoBlock{
+	margin:0 auto;
+	text-align: center;
+}
+
+/* Block with main information ( Main Information block & Block with examples (before/after) ) */
+.main{
+	margin:0 auto;
+	text-align:center;
+}
+
+/* Main Information block */
+.infoBlock{
+	position: relative;
+}
+
+/* Texts main information block */
+.textBlock{
+	width:100%;
+	position: absolute;
+	top:0;
+	padding-top:50px;
+}
+
+.textBlock h1{
+	font-size:54px;
+	font-family: 'Playfair_Display_Bold';
+	color:white;
+}
+
+.textBlock p{
+	font-size:21px;
+	font-family: arial;
+	line-height: 1.45;
+	color:#EBEEE7;
+}
+
+.p1{
+	width:650px;
+	/*width:45%;*/
+	margin:0 auto;
+	padding-top:20px;
+}
+
+/* Button in main information block */
+.textBlock button {
+	height: 55px;
+	width: 260px;
+	background: #191A1E;
+	color:white;
+	border:none;
+	border-radius:30px;
+	font-size:23px;
+	margin-top:55px;
+	cursor: pointer;
+}
+
+/* Block with text "Recent Revivals" and line */
+.textRecentRevivals p{
+	font-size:50px;
+	font-family:'Playfair_Display_Regular';
+	margin-bottom: -5px;
+}
+
+.line{
+	width:375px;
+	height:2px;
+	background: #DEC03C;
+	margin:auto;
+	margin-bottom:30px;
+}
+
+/* Block with examples (After/Before) */
+.imgAfterBefore {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	/*width:80%;*/
+	width:1100px;
+	justify-content: center;
+	margin:0 auto;
+}
+
+.imgAfterBefore p{
+	font-size:22px;
+	font-family:'Playfair_Display_Regular';
+}
+
+/* Footer styles */
+.textFooter{
+	margin:0 auto;
+	/*width:50%;*/
+	width:600px;
+	line-height: 1.5;
+	font-family: arial;
+}
+
+.footer{
+	background: #191A1E;
+	color:white;
+	text-align: center;
+	padding:70px;
+	margin-top:30px;
+	font-family: bold;
+}
+
+/* Import fonts */
+@font-face {
+	font-family:'Playfair_Display_Bold';
+	
+	src: url('./fonts/playfair-display-black.ttf');
+}
+
+@font-face {
+	font-family:'Playfair_Display_Regular';
+	
+	src: url('./fonts/playfair-display-regular.ttf');
+}
